@@ -1,0 +1,36 @@
+@reference "tailwindcss";
+
+/* Buttons */
+.btn {
+  @apply px-6 py-3 rounded-xl font-semibold transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-gradient-to-r from-cyan-500 to-purple-600 text-white hover:scale-105;
+}
+
+.btn-outline {
+  @apply border border-white/20 hover:bg-white/10;
+}
+
+/* Cards */
+.card {
+  @apply p-7 rounded-2xl bg-white/5 border border-white/10 backdrop-blur
+  transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-cyan-500/10;
+}
+
+/* Icons */
+.icon-box {
+  @apply w-14 h-14 rounded-xl flex items-center justify-center
+  bg-gradient-to-br from-cyan-500/20 to-purple-500/20 mb-5 text-3xl;
+}
+
+/* Glass Panels */
+.glass {
+  @apply bg-white/5 backdrop-blur border border-white/10 rounded-2xl;
+}
+
+/* Badges */
+.badge {
+  @apply px-3 py-1 text-sm rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-400/20;
+}

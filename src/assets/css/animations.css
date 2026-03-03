@@ -1,0 +1,39 @@
+@reference "tailwindcss";
+
+/* Fade In */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Floating */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Gradient Glow */
+@keyframes glow {
+  0% { box-shadow: 0 0 10px #22d3ee; }
+  50% { box-shadow: 0 0 25px #a855f7; }
+  100% { box-shadow: 0 0 10px #22d3ee; }
+}
+
+.animate-glow {
+  animation: glow 4s ease-in-out infinite;
+}
