@@ -24,7 +24,7 @@
             </p>
             <div class="quick-facts">
               <div class="fact-chip"><span class="fact-icon">📍</span><span>Indonesia</span></div>
-              <div class="fact-chip"><span class="fact-icon">💼</span><span>IT Programmer @ PT Milenia Mega Mandiri</span></div>
+              <div class="fact-chip"><span class="fact-icon">💼</span><span>IT Programmer @ Sinarmas Multifinance</span></div>
               <div class="fact-chip"><span class="fact-icon">🎯</span><span>Open to Work</span></div>
               <div class="fact-chip"><span class="fact-icon">🌐</span><span>Bahasa Indonesia & English</span></div>
             </div>
