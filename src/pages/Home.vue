@@ -14,7 +14,7 @@
       <h2 class="hero-name">Samuel Sihombing</h2>
       <p class="hero-role">
         IT Programmer
-        <a href="#" class="company-link">PT Milenia Mega Mandiri</a>
+        <a href="#" class="company-link">Software Engineering</a>
       </p>
       <p class="hero-desc">
         Portofolio ini menampilkan proyek dan kontribusi saya sebagai pengembang di bidang
